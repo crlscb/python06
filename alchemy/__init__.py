@@ -1,6 +1,6 @@
 from .elements import create_air
-from .potions import healing_potion as heal
-from .potions import strength_potion
-from .transmutation import lead_to_gold
+from .potions import healing_potion as heal  # noqa: F401
+from .potions import strength_potion  # noqa: F401
+from .transmutation import lead_to_gold  # noqa: F401
 
-__all__ = ["create_air"] #funciones que quiero que usen
+__all__ = ["create_air"]
