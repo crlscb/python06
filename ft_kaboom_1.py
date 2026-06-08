@@ -1,3 +1,4 @@
+# flake8: noqa: E402
 
 print("=== Kaboom 1 ===")
 print("Access to alchemy/grimoire/dark_spellbook.py directly")
